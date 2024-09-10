@@ -1,0 +1,15 @@
+/*
+ * Ex1.h
+ *
+ *  Created on: Sep 10, 2024
+ *      Author: Admin
+ */
+
+#ifndef INC_EX1_H_
+#define INC_EX1_H_
+#include "main.h"
+extern int trangthai_ex1 = 0;
+extern int timer_ex1 = 0;
+void EX1_RUN();
+
+#endif /* INC_EX1_H_ */
