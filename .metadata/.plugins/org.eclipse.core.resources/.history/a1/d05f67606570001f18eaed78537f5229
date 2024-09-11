@@ -91,13 +91,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  //static int dem = 0;
+  static int dem = 0;
   while (1)
   {
     /* USER CODE END WHILE */
-//	if (dem >= 12) dem = 0;
-//	EX7_RUN(dem);
-//	dem ++;
+	if (dem >= 12) dem = 0;
+	EX7_RUN(dem);
+	dem ++;
 	clearAllClock();
     HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
