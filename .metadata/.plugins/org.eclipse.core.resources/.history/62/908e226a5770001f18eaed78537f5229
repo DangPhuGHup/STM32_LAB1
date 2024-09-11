@@ -1,0 +1,14 @@
+/*
+ * Ex5.h
+ *
+ *  Created on: Sep 11, 2024
+ *      Author: Admin
+ */
+
+#ifndef INC_EX5_H_
+#define INC_EX5_H_
+#include "main.h"
+
+void EX5_RUN();
+
+#endif /* INC_EX5_H_ */
