@@ -1,0 +1,52 @@
+/*
+ * Ex6.c
+ *
+ *  Created on: Sep 11, 2024
+ *      Author: Admin
+ */
+#include "Ex6.h"
+extern int dem;
+void EX6_RUN(int dem)
+{
+	switch(dem)
+	{
+	    case 0:
+	    	HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 1:
+	    	HAL_GPIO_WritePin(LED1_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 2:
+	    	HAL_GPIO_WritePin(LED2_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 3:
+	    	HAL_GPIO_WritePin(LED3_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 4:
+	    	HAL_GPIO_WritePin(LED4_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 5:
+	    	HAL_GPIO_WritePin(LED5_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 6:
+	    	HAL_GPIO_WritePin(LED6_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 7:
+	    	HAL_GPIO_WritePin(LED7_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 8:
+	    	HAL_GPIO_WritePin(LED8_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 9:
+	    	HAL_GPIO_WritePin(LED9_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 10:
+	    	HAL_GPIO_WritePin(LED10_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    case 11:
+	    	HAL_GPIO_WritePin(LED11_GPIO_Port, LED0_Pin, SET);
+	    	break;
+	    default:
+		    break;
+	}
+}
