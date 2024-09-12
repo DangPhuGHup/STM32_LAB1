@@ -455,65 +455,31 @@ void xoadongho(int num1, int num2, int num3)
 	clearNumberOnClock(num2);
 	clearNumberOnClock(num3);
 }
-//void EX10_RUN()
-//{
-//	dongho(second, minute, hour);
-//	if (dem >= 5)
-//	{
-//		xoadongho(second, minute, hour);
-//		second++;
-//		dem = 0;
-//		if (second >= 12)
-//		{
-//			minute++;
-//			second = 0;
-//			if (minute >= 12)
-//				{
-//					hour++;
-//					minute = 0;
-//					if (hour >= 12)
-//					{
-//						hour = 0;
-//					}
-//				}
-//		}
-//
-//		dongho(second, minute, hour);
-//	}
-//	dem++;
-//
-//}
 void EX10_RUN()
 {
-    dongho(second, minute, hour);
-    if (dem >= 5)
-    {
-        xoadongho(second, minute, hour);
-        second++;
-        dem = 0;
+	dongho(second, minute, hour);
+	if (dem >= 5)
+	{
+		xoadongho(second, minute, hour);
+		second++;
+		dem = 0;
+		if (second >= 12)
+		{
+			minute++;
+			second = 0;
+			if (minute >= 12)
+				{
+					hour++;
+					minute = 0;
+					if (hour >= 12)
+					{
+						hour = 0;
+					}
+				}
+		}
 
-        switch (second)
-        {
-            case 12:
-                second = 0;
-                minute++;
-                switch (minute)
-                {
-                    case 12:
-                        minute = 0;
-                        hour++;
-                        switch (hour)
-                        {
-                            case 12:
-                                hour = 0;
-                                break;
-                        }
-                        break;
-                }
-                break;
-        }
+		dongho(second, minute, hour);
+	}
+	dem++;
 
-        dongho(second, minute, hour);
-    }
-    dem++;
 }
