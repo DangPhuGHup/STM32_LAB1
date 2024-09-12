@@ -17,7 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "Ex8.h"
+#include <Ex8.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -98,8 +98,7 @@ int main(void)
 //	if (dem >= 12) dem = 0;
 //	EX7_RUN(dem);
 //	dem ++;
-	//clearAllClock();
-	setNumberOnClock(5);
+	clearAllClock();
     HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }

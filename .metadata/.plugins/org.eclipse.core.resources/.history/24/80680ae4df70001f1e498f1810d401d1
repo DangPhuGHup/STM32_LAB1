@@ -11,5 +11,5 @@
 //static int dem = 0;
 void EX7_RUN(int dem);
 void clearAllClock();
-void setNumberOnClock(int num);
+
 #endif /* INC_EX8_H_ */
