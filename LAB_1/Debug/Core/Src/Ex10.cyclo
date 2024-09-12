@@ -1,0 +1,7 @@
+../Core/Src/Ex10.c:12:6:EX7_RUN	13
+../Core/Src/Ex10.c:188:6:clearAllClock	1
+../Core/Src/Ex10.c:203:6:setNumberOnClock	13
+../Core/Src/Ex10.c:380:6:clearNumberOnClock	13
+../Core/Src/Ex10.c:446:6:dongho	1
+../Core/Src/Ex10.c:452:6:xoadongho	1
+../Core/Src/Ex10.c:458:6:EX10_RUN	5

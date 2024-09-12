@@ -1,0 +1,7 @@
+../Core/Src/Ex10.c:12:6:EX7_RUN	16	static
+../Core/Src/Ex10.c:188:6:clearAllClock	8	static
+../Core/Src/Ex10.c:203:6:setNumberOnClock	16	static
+../Core/Src/Ex10.c:380:6:clearNumberOnClock	16	static
+../Core/Src/Ex10.c:446:6:dongho	24	static
+../Core/Src/Ex10.c:452:6:xoadongho	24	static
+../Core/Src/Ex10.c:458:6:EX10_RUN	8	static
