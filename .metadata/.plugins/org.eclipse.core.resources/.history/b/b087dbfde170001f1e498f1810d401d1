@@ -99,7 +99,7 @@ int main(void)
 //	EX7_RUN(dem);
 //	dem ++;
 	//clearAllClock();
-	clearNumberOnClock(5);
+	setNumberOnClock(5);
     HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
