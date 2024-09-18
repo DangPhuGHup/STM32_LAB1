@@ -16,7 +16,6 @@ void clearNumberOnClock(int num);
 void dongho(int num1, int num2, int num3);
 void xoadongho(int num1, int num2, int num3);
 void EX10_RUN();
-void settime(int a, int b, int c);
 static int hour = 0;
 static int minute = 0;
 static int second = 0;
