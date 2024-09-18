@@ -2052,12 +2052,11 @@ LOAD D:/PhanMemSTM32CUBE/PhanmemCUBEIDE+workspace/STM32CubeIDE/plugins/com.st.st
  .text.EX10_RUN
                 0x0000000008000380       0xb4 ./Core/Src/Ex10.o
                 0x0000000008000380                EX10_RUN
- .text.main     0x0000000008000434       0x1c ./Core/Src/main.o
+ .text.main     0x0000000008000434       0x1e ./Core/Src/main.o
                 0x0000000008000434                main
  .text.SystemClock_Config
-                0x0000000008000450       0x76 ./Core/Src/main.o
-                0x0000000008000450                SystemClock_Config
- *fill*         0x00000000080004c6        0x2 
+                0x0000000008000452       0x76 ./Core/Src/main.o
+                0x0000000008000452                SystemClock_Config
  .text.MX_GPIO_Init
                 0x00000000080004c8       0x68 ./Core/Src/main.o
  .text.Error_Handler

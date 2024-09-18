@@ -101,7 +101,7 @@ int main(void)
 	//clearAllClock();
 //	clearNumberOnClock(5);
 	  EX10_RUN();
-    HAL_Delay(100);
+    HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

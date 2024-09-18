@@ -71,3 +71,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\LAB VXL\GIT_LAB1\LA
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-12 15:17:51.591
 !MESSAGE Indexed 'LAB_1' (18 sources, 105 headers) in 3.69 sec: 6,990 declarations; 26,455 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.56%)
+!SESSION 2024-09-18 14:12:46.518 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\LAB VXL\GIT_LAB1\LAB_1\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\LAB VXL\GIT_LAB1\LAB_1\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-18 14:12:51.730
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-18 14:12:51.746
+!MESSAGE Log4j2 initialized with config file D:\LAB VXL\GIT_LAB1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-18 14:12:57.723
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-18 14:13:00.496
+!MESSAGE Indexed 'LAB_1' (18 sources, 105 headers) in 2.54 sec: 7,023 declarations; 26,757 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.55%)
