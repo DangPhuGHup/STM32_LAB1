@@ -1,4 +1,4 @@
-!SESSION 2024-09-11 12:34:14.438 -----------------------------------------------
+!SESSION 2024-09-18 14:00:37.643 -----------------------------------------------
 eclipse.buildId=Version 1.14.0
 java.version=17.0.8.1
 java.vendor=Eclipse Adoptium
@@ -6,30 +6,14 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  D:\LAB VXL\GIT_LAB1\LAB_1\.project
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\LAB VXL\GIT_LAB1\LAB_1\.project
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-11 12:35:14.700
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-18 14:00:54.881
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-11 12:35:14.709
-!MESSAGE Log4j2 initialized with config file D:\LAB VXL\GIT_LAB1\LAB_1\.metadata\.log4j2.xml
-
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-11 12:35:19.454
-!MESSAGE Started RMI Server, listening on port 41337
-!SESSION 2024-09-11 12:52:30.710 -----------------------------------------------
-eclipse.buildId=Version 1.14.0
-java.version=17.0.8.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  D:\LAB VXL\GIT_LAB1\LAB_1\.project
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\LAB VXL\GIT_LAB1\LAB_1\.project
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-11 12:52:37.622
-!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
-
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-11 12:52:37.622
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-18 14:00:54.889
 !MESSAGE Log4j2 initialized with config file D:\LAB VXL\GIT_LAB1\.metadata\.log4j2.xml
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-11 12:52:41.771
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-18 14:00:59.288
 !MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY org.eclipse.cdt.core 1 0 2024-09-11 12:52:49.260
-!MESSAGE Indexed 'LAB_1' (18 sources, 127 headers) in 5.58 sec: 8,015 declarations; 26,286 references; 6 unresolved inclusions; 58 syntax errors; 799 unresolved names (2.3%)
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-18 14:01:06.159
+!MESSAGE Indexed 'LAB_1' (20 sources, 127 headers) in 4.47 sec: 8,078 declarations; 26,741 references; 10 unresolved inclusions; 617 syntax errors; 1,676 unresolved names (4.6%)

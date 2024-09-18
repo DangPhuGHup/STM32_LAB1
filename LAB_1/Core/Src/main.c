@@ -91,17 +91,17 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int bodem = 0;
+  int bodem = 5;
   while (1)
   {
     /* USER CODE END WHILE */
 	  LED_Control(GPIOA, LED_GREEN_Pin, LED_YELLOW_Pin, LED_RED_Pin, &state1, &timer1);
 	  LED_Control(GPIOA, LED_GREEN2_Pin, LED_YELLOW2_Pin, LED_RED2_Pin, &state2, &timer2);
-	  if(bodem >= 10)
+	  if(bodem < 0)
 	  {
-		  bodem = 0;
+		  bodem = 5;
 	  }
-	  EX5_RUN(bodem++);
+	  EX5_RUN(bodem--);
 
 	  HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
