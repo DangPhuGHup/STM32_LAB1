@@ -1,7 +1,8 @@
 ../Core/Src/Ex10.c:12:6:EX7_RUN	13
 ../Core/Src/Ex10.c:188:6:clearAllClock	1
 ../Core/Src/Ex10.c:203:6:setNumberOnClock	13
-../Core/Src/Ex10.c:380:6:clearNumberOnClock	13
-../Core/Src/Ex10.c:446:6:dongho	1
-../Core/Src/Ex10.c:452:6:xoadongho	1
-../Core/Src/Ex10.c:486:6:EX10_RUN	5
+../Core/Src/Ex10.c:248:6:clearNumberOnClock	13
+../Core/Src/Ex10.c:314:6:dongho	1
+../Core/Src/Ex10.c:320:6:xoadongho	1
+../Core/Src/Ex10.c:326:6:settime	4
+../Core/Src/Ex10.c:335:6:EX10_RUN	4

@@ -95,12 +95,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-//	if (dem >= 12) dem = 0;
-//	EX7_RUN(dem);
-//	dem ++;
-	//clearAllClock();
-//	clearNumberOnClock(5);
-	  EX10_RUN();
+	settime(3,59,57);
+	EX10_RUN();
     HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
